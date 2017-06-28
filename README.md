@@ -34,7 +34,7 @@ Allows for downloads to be saved to a custom location or cancelled.  The possibl
 Defines whether or not all downloads should be ignored.
 
 ### maxDownloadRequestWait
-Sets the maximum time for the client to anticipate a `.download()` call.  If the call is not made, the download is automatically cancelled.
+Sets the maximum time in milliseconds for the client to anticipate a `.download()` call.  If the call is not made, the download is automatically cancelled.  Defaults to 5 seconds.
 
 ### paths.downloads
 Sets the Electron path for where downloads are saved.
